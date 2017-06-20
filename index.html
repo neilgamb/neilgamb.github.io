@@ -4,78 +4,64 @@
 
 <head>
     <link rel="stylesheet" href='style.css'>
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href='font-awesome/css/font-awesome.min.css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="jquery.scrollNav.min.js"></script>
+    <script src="jquery.scrollNav.js"></script>
     <script type="text/javascript">
-        $('.post__article').scrollNav();
+        window.addEventListener('load', function() {$('.post__article').scrollNav()});
     </script>
+
 
 </head>
 
-<body>
-    <header>
-        <h1>neilgamb</h1>
+<body class="sn-active">
+    <header class="page_header" role="banner">
+        <h1><i class="fa fa-github" aria-hidden="true"></i>neilgamb</h1>
     </header>
 
-    <main>
+<div class="main">
+    <article class="post__article">
+        <header class"post__header">
+            <h1 class="post__heading">Hey there, welcome to my GitHub</h1>
+            <p class="post__sub-heading">If you are looking to check out all of my projects, past and present, you have come to right place!</p>
+        </header>
 
-        <div class="main">
-            <article class="post__article">
-                <header class"post__header">
-                    <h1 class="post__heading">This is the main heading for the article</h1>
-                    <p class="post__sub-heading">This is a sub-heading for the article</p>
-                </header>
-                <p>Yada yada yada...</p>
-                <h2>This is a section heading</h2>
-                <p>More yada yada...</p>
-                <h2>Another section heading</h2>
-                <p>More more yada...</p>
-            </article>
+        <h2>This is a section heading</h2>
+        <p>More yada yada...</p>
 
-            <article class="post__article">
-                <header class"post__header">
-                    <h1 class="post__heading">This is the main heading for the article</h1>
-                    <p class="post__sub-heading">This is a sub-heading for the article</p>
-                </header>
-                <p>Yada yada yada...</p>
-                <h2>This is a section heading</h2>
-                <p>More yada yada...</p>
-                <h2>Another section heading</h2>
-                <p>More more yada...</p>
-            </article>
+        <h2>another section heading</h2>
+        <p>More yada yada...</p>
 
-            <article class="post__article">
-                <header class"post__header">
-                    <h1 class="post__heading">This is the main heading for the article</h1>
-                    <p class="post__sub-heading">This is a sub-heading for the article</p>
-                </header>
-                <p>Yada yada yada...</p>
-                <h2>This is a section heading</h2>
-                <p>More yada yada...</p>
-                <h2>Another section heading</h2>
-                <p>More more yada...</p>
-            </article>
-        </div>
-        
-            <!--<section class="navigation">
-                <nav>
-                    <ul>
-                        <li>
-                            <h2>Project Name</h2>
-                            <h3>App</h3>
-                            <h3>Code</h3>
-                        </li>
+        <h2>another section heading</h2>
+        <p>More yada yada...</p>
+
+        <h2>another section heading</h2>
+        <p>More yada yada...</p>
+
+        <h2>another section heading</h2>
+        <p>More yada yada...</p>
+
+        <h2>another section heading</h2>
+        <p>More yada yada...</p>
+
+        <h2>another section heading</h2>
+        <p>More yada yada...</p>
+
+        <h2>another section heading</h2>
+        <p>More yada yada...</p>
+
+        <h2>another section heading</h2>
+        <p>More yada yada...</p>
+
+        <h2>another section heading</h2>
+        <p>More yada yada...</p>
+    </article>
 
 
-                    </ul>
-                </nav>
-            </section>
-            <section class="content">
-                <p>Puppy news here</p>
-            </section>-->
-    </main>
-    <footer>
-    </footer>
+</div>
+
+
+
 </body>
 </html>
