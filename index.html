@@ -4,7 +4,13 @@
 
 <head>
     <link rel="stylesheet" href='style.css'>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript">
+        $('.post__article').scrollNav();
+    </script>
+
 </head>
 
 <body>
@@ -13,21 +19,64 @@
     </header>
 
     <main>
-            <section class="navigation">
+
+        <div class="main">
+            <article class="post__article">
+                <header class"post__header">
+                    <h1 class="post__heading">This is the main heading for the article</h1>
+                    <p class="post__sub-heading">This is a sub-heading for the article</p>
+                </header>
+                <p>Yada yada yada...</p>
+                <h2>This is a section heading</h2>
+                <p>More yada yada...</p>
+                <h2>Another section heading</h2>
+                <p>More more yada...</p>
+            </article>
+
+            <article class="post__article">
+                <header class"post__header">
+                    <h1 class="post__heading">This is the main heading for the article</h1>
+                    <p class="post__sub-heading">This is a sub-heading for the article</p>
+                </header>
+                <p>Yada yada yada...</p>
+                <h2>This is a section heading</h2>
+                <p>More yada yada...</p>
+                <h2>Another section heading</h2>
+                <p>More more yada...</p>
+            </article>
+
+            <article class="post__article">
+                <header class"post__header">
+                    <h1 class="post__heading">This is the main heading for the article</h1>
+                    <p class="post__sub-heading">This is a sub-heading for the article</p>
+                </header>
+                <p>Yada yada yada...</p>
+                <h2>This is a section heading</h2>
+                <p>More yada yada...</p>
+                <h2>Another section heading</h2>
+                <p>More more yada...</p>
+            </article>
+        </div>
+        
+            <!--<section class="navigation">
                 <nav>
                     <ul>
-                        <li>First</li>
-                        <li>Second</li>
-                        <li>Third</li>
+                        <li>
+                            <h2>Project Name</h2>
+                            <h3>App</h3>
+                            <h3>Code</h3>
+                        </li>
+
+
                     </ul>
                 </nav>
             </section>
             <section class="content">
                 <p>Puppy news here</p>
-            </section>
+            </section>-->
     </main>
     <footer>
-        <p>Copyright 2017</p>
+        <script src="jquery.scrollNav.min.js"></script>
     </footer>
 </body>
 </html>
