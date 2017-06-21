@@ -1501,7 +1501,7 @@ body {
       font-size: 1.5rem; }
   body .active {
     margin-left: 10px;
-    font-size: 1.5rem; }
+    font-size: 1.8rem; }
 
 .hide {
   display: none; }
@@ -1552,6 +1552,48 @@ body {
     font-size: 3rem;
     word-spacing: 30px;
     letter-spacing: 20px; }
+  #scrollNav-3 p {
+    background-color: black;
+    opacity: .7; }
+
+#scrollNav-4 {
+  background-color: #768d87; }
+  #scrollNav-4 h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3rem; }
+
+#scrollNav-5 {
+  background-color: #B9CDDA; }
+  #scrollNav-5 .logo img {
+    width: 250px; }
+
+#scrollNav-6 {
+  background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2013/12/metal-wallpaper-3.jpg");
+  background-size: 100%; }
+  #scrollNav-6 h2 {
+    font-size: 3rem; }
+  #scrollNav-6 p {
+    background-color: black;
+    margin-bottom: 0px; }
+  #scrollNav-6 .builtwith {
+    margin-top: 0px;
+    margin-bottom: 10px; }
+  #scrollNav-6 h3 {
+    background-color: black;
+    color: white; }
+  #scrollNav-6 h3:hover {
+    background-color: white;
+    border-color: white; }
+    #scrollNav-6 h3:hover a {
+      color: black; }
+
+#scrollNav-7 {
+  background-image: url("https://images6.alphacoders.com/366/366291.jpg");
+  background-size: 100%;
+  margin-bottom: 500px; }
+  #scrollNav-7 h2 {
+    font-family: 'Stint Ultra Expanded', cursive;
+    font-size: 2rem; }
 
 @media only screen and (max-width: 1200px) {
   body {

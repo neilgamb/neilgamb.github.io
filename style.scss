@@ -144,8 +144,7 @@ body {
 
     .active {
         margin-left: 10px;
-        font-size: 1.5rem;
-
+        font-size: 1.8rem;
     }
 
 }
@@ -212,7 +211,6 @@ body {
     }
 
 // CRAZY TAXI
-
 #scrollNav-3 {
     background-image: url('https://images6.alphacoders.com/360/360364.jpg');
     background-size: 100%;
@@ -225,9 +223,82 @@ body {
         word-spacing: 30px;
         letter-spacing: 20px;
     }
+
+    p {
+        background-color: black;
+        opacity: .7;
+    }
 }
 
+// Gitactive
+#scrollNav-4 {
+    background-color: #768d87;
 
+    h2 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 3rem;
+    }
+
+}
+
+// chirp
+#scrollNav-5 {
+    background-color: #B9CDDA;
+
+    .logo {
+        
+        img {
+        width: 250px;
+    }
+
+    }
+}
+
+// iSpin 
+#scrollNav-6 {
+    background-image: url('http://cdn.wonderfulengineering.com/wp-content/uploads/2013/12/metal-wallpaper-3.jpg');
+    background-size: 100%;
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    p {
+        background-color: black;
+        margin-bottom: 0px;
+    }
+
+    .builtwith {
+        margin-top: 0px;
+        margin-bottom: 10px
+    }
+
+        h3 {
+            background-color: black;
+            color: white;
+        }
+
+        h3:hover {
+            background-color: white;
+            border-color: white;
+
+            a {
+                color: black;
+            }
+        }
+}
+
+// Restaurant
+#scrollNav-7 {
+    background-image: url('https://images6.alphacoders.com/366/366291.jpg');
+    background-size: 100%;
+    margin-bottom: 500px;
+
+    h2 {
+        font-family: 'Stint Ultra Expanded', cursive;
+        font-size: 2rem;
+    }
+}
 
 // Responsive
 
