@@ -1512,7 +1512,7 @@ body {
     margin-top: 10px; }
   #scrollNav-2 h3 {
     display: inline-block;
-    margin-top: 0px;
+    margin: 0px 5px 10px 0px;
     padding: 10px;
     width: 120px;
     border: solid;
@@ -1520,7 +1520,75 @@ body {
     font-size: 1rem; }
   #scrollNav-2 h3:hover {
     background-color: white;
-    color: #6B878C;
     border-color: white; }
+    #scrollNav-2 h3:hover a {
+      color: #6B878C; }
+
+@media only screen and (max-width: 1200px) {
+  body {
+    max-width: 75rem;
+    margin-right: auto;
+    margin-left: auto; }
+    body::before, body::after {
+      display: table;
+      content: ' '; }
+    body::after {
+      clear: both; }
+    body .scroll-nav {
+      position: relative;
+      width: 25%;
+      float: left;
+      padding-right: 0.625rem;
+      padding-left: 0.625rem; } }
+    @media only screen and (max-width: 1200px) and (min-width: 40em) {
+      body .scroll-nav {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem; } }
+@media only screen and (max-width: 1200px) {
+      body .scroll-nav:last-child:not(:first-child) {
+        float: right; }
+    body .post__article {
+      width: 75%;
+      float: left;
+      padding-right: 0.625rem;
+      padding-left: 0.625rem; } }
+    @media only screen and (max-width: 1200px) and (min-width: 40em) {
+      body .post__article {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem; } }
+@media only screen and (max-width: 1200px) {
+      body .post__article:last-child:not(:first-child) {
+        float: right; } }
+@media only screen and (max-width: 700px) {
+  body {
+    max-width: 75rem;
+    margin-right: auto;
+    margin-left: auto; }
+    body::before, body::after {
+      display: table;
+      content: ' '; }
+    body::after {
+      clear: both; }
+    body .page_header {
+      margin: 0px;
+      position: fixed;
+      z-index: 2;
+      width: 100vw; }
+    body .scroll-nav {
+      display: none; }
+    body .post__article {
+      width: 100%;
+      float: left;
+      padding-right: 0.625rem;
+      padding-left: 0.625rem; } }
+    @media only screen and (max-width: 700px) and (min-width: 40em) {
+      body .post__article {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem; } }
+@media only screen and (max-width: 700px) {
+      body .post__article:last-child:not(:first-child) {
+        float: right; }
+    body #scrollNav-1 {
+      margin-top: 120px; } }
 
 /*# sourceMappingURL=style.css.map */

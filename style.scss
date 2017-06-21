@@ -6,6 +6,7 @@ body {
     @include grid-row();
     font-family: 'Roboto', sans-serif;
 
+
     .page_header {
         margin: 0px 15px;
         padding-bottom: 20px;
@@ -60,6 +61,8 @@ body {
         .scroll-nav__heading {
             display: none;
         }
+
+
 
     }
 
@@ -157,12 +160,12 @@ body {
         }
 
         p {
-            margin-top: 10px;
+            margin-top: 10px;  
         }
 
         h3 {
             display: inline-block;
-            margin-top: 0px;
+            margin: 0px 5px 10px 0px;
             padding: 10px;
             width: 120px;
             border: solid;
@@ -172,8 +175,56 @@ body {
 
         h3:hover {
             background-color: white;
-            color: #6B878C;
             border-color: white;
+
+            a {
+                color: #6B878C;
+            }
         }
 
     }
+
+@media only screen and (max-width: 1200px) {
+
+    body {
+        @include grid-row();
+
+        .scroll-nav {
+            position: relative;
+            @include grid-column(3);
+        }
+
+        .post__article {
+            @include grid-column(9);
+        }
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    body {
+        @include grid-row();
+
+        .page_header {
+            margin: 0px;
+            position: fixed;
+            z-index: 2;
+            width: 100vw;
+        }
+
+        .scroll-nav {
+            display: none;
+        }
+
+        .post__article {
+            @include grid-column(12);
+        }
+
+        #scrollNav-1 {
+            margin-top: 120px;
+        }
+    }
+
+}
+
