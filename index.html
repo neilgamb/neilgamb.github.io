@@ -5,11 +5,31 @@
 <head>
     <link rel="stylesheet" href='style.css'>
     <link rel="stylesheet" href='font-awesome/css/font-awesome.min.css'>
+    <link href="https://fonts.googleapis.com/css?family=Handlee|Roboto:100,300,400" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="jquery.scrollNav.js"></script>
     <script type="text/javascript">
-        window.addEventListener('load', function() {$('.post__article').scrollNav()});
+        window.addEventListener('load', function() {$('.post__article').scrollNav({    
+            sections: 'h2',
+            subSections: false,
+            sectionElem: 'section',
+            showHeadline: true,
+            showTopLink: true,
+            topLinkText: 'BACK UP TOP',
+            fixedMargin: 40,
+            scrollOffset: 40,
+            animated: true,
+            speed: 500,
+            insertTarget: this.selector,
+            insertLocation: 'insertBefore',
+            arrowKeys: false,
+            scrollToHash: true,
+            onInit: null,
+            onRender: null,
+            onDestroy: null
+            }
+        )});
     </script>
 
 
@@ -23,41 +43,63 @@
 <div class="main">
     <article class="post__article">
         <header class"post__header">
-            <h1 class="post__heading">Hey there, welcome to my GitHub</h1>
-            <p class="post__sub-heading">If you are looking to check out all of my projects, past and present, you have come to right place!</p>
+            <h1 class="post__heading">Hey there, welcome to my GitHub!</h1>
+            <p class="post__sub-heading">If you are looking to check out all of my projects, past and present, you have come to right place... </p>
         </header>
 
-        <h2>This is a section heading</h2>
-        <p>More yada yada...</p>
+        <!-- serv'd -->
+        <h2 id="servd" class="hide">serv'd</h2>
+            <div class="logo">
 
+                <img src="noun_782403_cc WHITE.png">
+                <h1>serv'd</h1>
+        
+            </div>
+
+            <p>A share economy app that connects people through home-cooked meals.<br>Designed to match people who are cooking extra portions of food with people who are looking for a more <br>affordable, healthier and / or convenient alternative to eating out.</p>
+
+            <div class="app_code">
+                <h3><a target="_blank" href="https://servd.surge.sh/#!/start">app</a></h3>
+                <h3><a target="_blank" href="https://github.com/neilgamb/Final-Project-Repository">< /code ></a></h3>
+            </div>
+
+        <!-- App -->
         <h2>another section heading</h2>
         <p>More yada yada...</p>
 
+        <!-- App -->
         <h2>another section heading</h2>
         <p>More yada yada...</p>
 
+        <!-- App -->
         <h2>another section heading</h2>
         <p>More yada yada...</p>
 
+        <!-- App -->
         <h2>another section heading</h2>
         <p>More yada yada...</p>
 
+        <!-- App -->
         <h2>another section heading</h2>
         <p>More yada yada...</p>
 
+        <!-- App -->
         <h2>another section heading</h2>
         <p>More yada yada...</p>
 
+        <!-- App -->
         <h2>another section heading</h2>
         <p>More yada yada...</p>
 
+        <!-- App -->
         <h2>another section heading</h2>
         <p>More yada yada...</p>
 
+        <!-- App -->
         <h2>another section heading</h2>
         <p>More yada yada...</p>
+
     </article>
-
 
 </div>
 
