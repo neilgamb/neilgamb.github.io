@@ -1445,6 +1445,23 @@ body {
     body section a {
       text-decoration: none;
       color: white; }
+    body section p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      font-weight: 300; }
+    body section h3 {
+      display: inline-block;
+      margin: 0px 5px 10px 0px;
+      padding: 10px;
+      width: 120px;
+      border: solid;
+      border-width: 1px;
+      font-size: 1rem; }
+    body section h3:hover {
+      background-color: white;
+      border-color: white; }
+      body section h3:hover a {
+        color: #6B878C; }
   body section:hover {
     opacity: 1.0;
     filter: alpha(opacity=100);
@@ -1483,12 +1500,14 @@ body {
     body .post__article .post__sub-heading {
       font-size: 1.5rem; }
   body .active {
-    font-weight: bolder;
     margin-left: 10px;
     font-size: 1.5rem; }
 
 .hide {
   display: none; }
+
+.bold {
+  font-weight: bold; }
 
 #scrollNav-2 {
   background-image: -ms-linear-gradient(top right, #B6E5ED 0%, #9AC2C9 40%, #6B878C 100%);
@@ -1524,6 +1543,16 @@ body {
     #scrollNav-2 h3:hover a {
       color: #6B878C; }
 
+#scrollNav-3 {
+  background-image: url("https://images6.alphacoders.com/360/360364.jpg");
+  background-size: 100%;
+  background-repeat: repeat; }
+  #scrollNav-3 h2 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 3rem;
+    word-spacing: 30px;
+    letter-spacing: 20px; }
+
 @media only screen and (max-width: 1200px) {
   body {
     max-width: 75rem;
@@ -1558,7 +1587,9 @@ body {
         padding-left: 0.9375rem; } }
 @media only screen and (max-width: 1200px) {
       body .post__article:last-child:not(:first-child) {
-        float: right; } }
+        float: right; }
+    body section {
+      opacity: 1; } }
 @media only screen and (max-width: 700px) {
   body {
     max-width: 75rem;
@@ -1589,6 +1620,8 @@ body {
       body .post__article:last-child:not(:first-child) {
         float: right; }
     body #scrollNav-1 {
-      margin-top: 120px; } }
+      margin-top: 110px; }
+    body section {
+      opacity: 1; } }
 
 /*# sourceMappingURL=style.css.map */

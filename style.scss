@@ -62,8 +62,6 @@ body {
             display: none;
         }
 
-
-
     }
 
     section { 
@@ -82,6 +80,31 @@ body {
         a {
             text-decoration: none;
             color: white;
+        }
+
+        p {
+            margin-top: 10px;  
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+
+        h3 {
+            display: inline-block;
+            margin: 0px 5px 10px 0px;
+            padding: 10px;
+            width: 120px;
+            border: solid;
+            border-width: 1px;
+            font-size: 1rem;
+        }
+
+        h3:hover {
+            background-color: white;
+            border-color: white;
+
+            a {
+                color: #6B878C;
+            }
         }
     }
 
@@ -120,15 +143,19 @@ body {
     }
 
     .active {
-        font-weight: bolder;
         margin-left: 10px;
         font-size: 1.5rem;
+
     }
 
 }
 
 .hide {
     display: none;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 // SECTIONS
@@ -184,6 +211,26 @@ body {
 
     }
 
+// CRAZY TAXI
+
+#scrollNav-3 {
+    background-image: url('https://images6.alphacoders.com/360/360364.jpg');
+    background-size: 100%;
+    background-repeat: repeat;
+    
+    
+    h2 {
+        font-family: 'Pathway Gothic One', sans-serif;
+        font-size: 3rem;
+        word-spacing: 30px;
+        letter-spacing: 20px;
+    }
+}
+
+
+
+// Responsive
+
 @media only screen and (max-width: 1200px) {
 
     body {
@@ -196,6 +243,10 @@ body {
 
         .post__article {
             @include grid-column(9);
+        }
+
+        section {
+            opacity: 1;
         }
     }
 
@@ -222,7 +273,11 @@ body {
         }
 
         #scrollNav-1 {
-            margin-top: 120px;
+            margin-top: 110px;
+        }
+
+        section {
+            opacity: 1;
         }
     }
 
