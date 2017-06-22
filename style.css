@@ -1606,7 +1606,7 @@ body {
     body::after {
       clear: both; }
     body .scroll-nav {
-      position: relative;
+      position: fixed;
       width: 25%;
       float: left;
       padding-right: 0.625rem;

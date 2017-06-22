@@ -308,7 +308,7 @@ body {
         @include grid-row();
 
         .scroll-nav {
-            position: relative;
+            position: fixed;
             @include grid-column(3);
         }
 
