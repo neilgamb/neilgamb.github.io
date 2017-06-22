@@ -53,7 +53,7 @@ body {
                 a {
                     color: white;
                     text-decoration: none;
-                    font-weight: 300;
+                    font-weight: 400;
                 }
             }
         }
@@ -127,6 +127,31 @@ body {
         background: linear-gradient(135deg, #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
         
+        .repos {
+            color: #34282C;
+            text-decoration: underline;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 60px;
+            margin-bottom: 20px;
+
+            a {
+                margin-left: 10px;  
+                font-size: 1rem;
+                flex-direction: row;
+                display: inline-block;
+                text-align: center;
+                font-weight: 400;
+                color: black;
+
+                .fa {
+                    margin-right: 5px;
+                }
+            }
+        }
     }
 
     #scrollNav-11 {

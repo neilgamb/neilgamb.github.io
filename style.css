@@ -1427,7 +1427,7 @@ body {
         body .scroll-nav ol li a {
           color: white;
           text-decoration: none;
-          font-weight: 300; }
+          font-weight: 400; }
     body .scroll-nav .scroll-nav__heading {
       display: none; }
   body section {
@@ -1484,6 +1484,24 @@ body {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 );
     /* IE6-9 fallback on horizontal gradient */ }
+    body #scrollNav-1 .repos {
+      color: #34282C;
+      text-decoration: underline; }
+    body #scrollNav-1 .contact {
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 60px;
+      margin-bottom: 20px; }
+      body #scrollNav-1 .contact a {
+        margin-left: 10px;
+        font-size: 1rem;
+        flex-direction: row;
+        display: inline-block;
+        text-align: center;
+        font-weight: 400;
+        color: black; }
+        body #scrollNav-1 .contact a .fa {
+          margin-right: 5px; }
   body #scrollNav-11 {
     margin-bottom: 300px; }
   body .post__article {
