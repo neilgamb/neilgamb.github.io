@@ -1461,7 +1461,7 @@ body {
       background-color: white;
       border-color: white; }
       body section h3:hover a {
-        color: #6B878C; }
+        color: black; }
   body section:hover {
     opacity: 1.0;
     filter: alpha(opacity=100);
@@ -1489,6 +1489,7 @@ body {
       text-decoration: underline; }
     body #scrollNav-1 .contact {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       padding: 0px 60px;
       margin-bottom: 20px; }
@@ -1547,24 +1548,10 @@ body {
       font-size: 3rem; }
   #scrollNav-2 p {
     margin-top: 10px; }
-  #scrollNav-2 h3 {
-    display: inline-block;
-    margin: 0px 5px 10px 0px;
-    padding: 10px;
-    width: 120px;
-    border: solid;
-    border-width: 1px;
-    font-size: 1rem; }
-  #scrollNav-2 h3:hover {
-    background-color: white;
-    border-color: white; }
-    #scrollNav-2 h3:hover a {
-      color: #6B878C; }
 
 #scrollNav-3 {
   background-image: url("https://images6.alphacoders.com/360/360364.jpg");
-  background-size: 100%;
-  background-repeat: repeat; }
+  background-size: 100%; }
   #scrollNav-3 h2 {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 3rem;
@@ -1594,8 +1581,8 @@ body {
     background-color: black;
     margin-bottom: 0px; }
   #scrollNav-6 .builtwith {
-    margin-top: 0px;
-    margin-bottom: 10px; }
+    margin-top: 20px;
+    margin-bottom: 40px; }
   #scrollNav-6 h3 {
     background-color: black;
     color: white; }
@@ -1612,6 +1599,9 @@ body {
   #scrollNav-7 h2 {
     font-family: 'Stint Ultra Expanded', cursive;
     font-size: 2rem; }
+  #scrollNav-7 p {
+    background: black;
+    opacity: .7; }
 
 @media only screen and (max-width: 1200px) {
   body {
@@ -1667,6 +1657,15 @@ body {
       width: 100vw; }
     body .scroll-nav {
       display: none; }
+    body #scrollNav-1 {
+      margin-top: 110px; }
+      body #scrollNav-1 .contact a {
+        width: 100%;
+        margin-top: 20px; }
+    body #scrollNav-3 {
+      background-size: 400%; }
+    body #scrollNav-7 {
+      background-size: 200%; }
     body .post__article {
       width: 100%;
       float: left;
@@ -1679,8 +1678,6 @@ body {
 @media only screen and (max-width: 700px) {
       body .post__article:last-child:not(:first-child) {
         float: right; }
-    body #scrollNav-1 {
-      margin-top: 110px; }
     body section {
       opacity: 1; } }
 

@@ -103,7 +103,7 @@ body {
             border-color: white;
 
             a {
-                color: #6B878C;
+                color: black;
             }
         }
     }
@@ -134,6 +134,7 @@ body {
 
         .contact {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             padding: 0px 60px;
             margin-bottom: 20px;
@@ -214,24 +215,24 @@ body {
             margin-top: 10px;  
         }
 
-        h3 {
-            display: inline-block;
-            margin: 0px 5px 10px 0px;
-            padding: 10px;
-            width: 120px;
-            border: solid;
-            border-width: 1px;
-            font-size: 1rem;
-        }
+        // h3 {
+        //     display: inline-block;
+        //     margin: 0px 5px 10px 0px;
+        //     padding: 10px;
+        //     width: 120px;
+        //     border: solid;
+        //     border-width: 1px;
+        //     font-size: 1rem;
+        // }
 
-        h3:hover {
-            background-color: white;
-            border-color: white;
+        // h3:hover {
+        //     background-color: white;
+        //     border-color: white;
 
-            a {
-                color: #6B878C;
-            }
-        }
+        //     a {
+        //         color: #6B878C;
+        //     }
+        // }
 
     }
 
@@ -239,7 +240,6 @@ body {
 #scrollNav-3 {
     background-image: url('https://images6.alphacoders.com/360/360364.jpg');
     background-size: 100%;
-    background-repeat: repeat;
     
     
     h2 {
@@ -294,8 +294,8 @@ body {
     }
 
     .builtwith {
-        margin-top: 0px;
-        margin-bottom: 10px
+        margin-top: 20px;
+        margin-bottom: 40px
     }
 
         h3 {
@@ -322,6 +322,11 @@ body {
     h2 {
         font-family: 'Stint Ultra Expanded', cursive;
         font-size: 2rem;
+    }
+
+    p {
+        background: black;
+        opacity: .7;
     }
 }
 
@@ -364,13 +369,33 @@ body {
             display: none;
         }
 
+        #scrollNav-1 {
+            margin-top: 110px;
+
+            .contact {
+                
+                a {
+                    width: 100%;
+                    margin-top: 20px;
+                }
+            }
+        }
+
+        #scrollNav-3 {
+            background-size: 400%;
+
+        }
+
+        #scrollNav-7 {
+            background-size: 200%;
+
+        }
+
         .post__article {
             @include grid-column(12);
         }
 
-        #scrollNav-1 {
-            margin-top: 110px;
-        }
+
 
         section {
             opacity: 1;
