@@ -27,7 +27,13 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  overflow: auto;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+  .canvas, .hero-content-wrapper {
+    overflow-y: auto;
+  }
 }
 
 .hero-content-wrapper {
