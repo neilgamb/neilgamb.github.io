@@ -1,6 +1,6 @@
 a {
   text-decoration: none;
-  color: inherit; 
+  color: inherit;
 }
 
 a:hover {
@@ -11,7 +11,7 @@ body {
   text-align: center;
   margin: 0px;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 100;
 }
 
@@ -21,7 +21,8 @@ body {
   width: 100vw;
 }
 
-.canvas, .hero-content-wrapper {
+.canvas,
+.hero-content-wrapper {
   position: fixed;
   top: 0;
   left: 0;
@@ -31,7 +32,8 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .canvas, .hero-content-wrapper {
+  .canvas,
+  .hero-content-wrapper {
     overflow-y: auto;
   }
 }
@@ -52,19 +54,22 @@ body {
   margin-bottom: 50px;
 }
 
-.name, .title {
+.name,
+.title {
   display: flex;
   flex: 1;
   padding: 5px 10px;
-  background: rgb(255, 255, 255, .2);
+  background: rgb(255, 255, 255, 0.2);
   border: 1px solid white;
   position: relative;
   justify-content: center;
-  min-width: 120px;
+  width: 270px;
+  font-size: 32px;
 }
 
 .title {
   bottom: 1px;
+  letter-spacing: 2px;
 }
 
 .contact_links {
